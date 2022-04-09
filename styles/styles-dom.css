@@ -1,0 +1,12 @@
+.bg-grey{
+    background-color: gray;
+}
+
+
+.border-darkred{
+    border: 4px dashed darkred;
+}
+
+.js-link{
+    color:red;
+}

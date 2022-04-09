@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: yellowgreen;
+}
+
+footer{
+    background-color: lightgreen;
+}
+
+#moralis-reference{
+    /* text-shadow: blueviolet 1px 0 10px;*/
+    text-shadow: 10px 10px 2px red;
+ }
+
+.first-paragraph{
+    border:2px dashed darkblue;
+}
+
+.dash-border{
+    border:1px dashed darkblue;
+    /*display: inline-block;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;*/
+}
+
+.column-container{
+     display:flex; 
+     flex-direction:row-reverse;
+     justify-content: space-between;
+}
+
+.column{
+    width:25%;
+}
+
+  
+ 
+
+
+/* Header styles  */
+
+.header-container{
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+    padding-left: 25px;
+}
+
+.main-nav{
+    width:70%;
+}
+
+.menu-list{
+ list-style-type: none;
+ display: flex;
+ justify-content: flex-end;
+ padding-right: 30px;
+}
+
+.menu-item{
+    margin: 20px;
+    font-size: 16px;
+   /* text-decoration: none; 
+    font-weight: bold;*/
+}
+
+ 
+  
+
+
+
+.myButton {
+    color: rgb(255, 255, 255);
+     font-size: 18px;
+      line-height: 18px; 
+      padding: 10px;
+       border-radius: 0px;
+        font-family: Georgia, serif;
+         font-weight: normal;
+          text-decoration: none; font-style: normal; font-variant: normal;
+           text-transform: none;
+            background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+             box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164);
+              display: inline-block;
+              width: 100px;
+            }
+
+    .myButton:hover {
+        background: #1C6EA4;
+    }
+    .myButton:active {
+        background: #144E75;
+     }
+
+
+
+body{
+    background-color: beige;
+    
+}
+
+[type=text], [type=number] , [type=submit] {
+    padding: 7px;
+}
+
+
+@media screen and (max-width:400px){
+
+    .header-container{
+        display: flex;
+    }
+
+
+    .logo{
+        width: 30%;
+        padding-left: 25px;
+    }
+    
+
+    
+
+    .menu-list{
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 30px;
+       }
+
+    .menu-item{
+        margin: 20px;
+        font-size: 16px;
+       /* text-decoration: none; 
+        font-weight: bold;*/
+    }
+     
+
+}
+
+@media screen and (min-width:768px){
+
+    .logo{
+       /* width: 30%;*/
+        padding-left: 75px;
+    }
+    
+    .menu-list{
+      /*  list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        */
+        padding-right: 90px;
+       }
+
+
+
+}
+
+ 
+    
+ 
+ 
+ 
+ 
+
